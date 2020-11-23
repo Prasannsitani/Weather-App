@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather </title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <h3>Use this site to fetch the weather</h3>
+        <form action="/">
+            <div class="userData">
+                <input id="myinput" type="text" placeholder="Location" autocomplete="off">
+                <button type="submit"><i class="fas fa-search-location fa-2x"></i></i></button>   
+            </div>
+            <div class="userOutput">
+                <p class="location">Weather Forecast Will Be Displayed Here</p>
+            <p class="foreCast"></p>
+            </div>
+        </form>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+</html>
