@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 node_modules/
+=======
+/node_modules
+npm-debug.log
+>>>>>>> 13d54f3acce2e98517cf3418db3003bb995d5fbe
